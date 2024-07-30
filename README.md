@@ -1,1 +1,1 @@
-# react-portfolio-spa
+# React Portfolio (Single Page Application)
