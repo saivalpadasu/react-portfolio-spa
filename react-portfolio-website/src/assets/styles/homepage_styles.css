@@ -1,15 +1,34 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .card-body {
-    flex: 1;
+  flex: 1;
 }
 
 .card .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.customWidth {
+  width: 25.5%;
+  margin-top: 7.5rem;
+}
+
+@media (max-width: 991px) {
+  .customWidth {
+    width: 35.5%;
+    margin-top: 7.5rem;
+  }
+}
+
+@media (max-width: 661px) {
+  .customWidth {
+    width: 70%;
+    margin-top: 5rem;
+  }
 }
