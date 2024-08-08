@@ -1,59 +1,73 @@
 import React from "react";
 import "../assets/styles/aboutpage_styles.css";
 import backgroundImage from "../assets/images/backgrounds/ironman3.png";
+import ironman from "../assets/images/iron_man.jpg";
 
 const AboutPage = () => {
   return (
     <div>
-      <section className="page-title bg-cover" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <section
+        className="page-title bg-cover"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
         <div className="container">
           <div className="row">
             <div className="col-12 text-center">
-              <h1 className="display-1 text-white font-weight-bold font-primary">About Page</h1>
+              <h1 className="display-1 text-white font-weight-bold font-primary">
+                About Me
+              </h1>
             </div>
           </div>
         </div>
       </section>
-      <section className="section">
+      (
+      <section className="about-section">
         <div className="container">
           <div className="row">
-            <div className="col-lg-10 mx-auto text-center">
-              <h2>Title</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-              <div className="section-border"></div>
-            </div>
-          </div>
-          <div className="row no-gutters">
-            <div className="col-lg-3 col-sm-6">
-              <div className="card hover-shadow">
-                <div className="card-body text-center position-relative zindex-1">
-                  <h4><a className="text-dark" href="team-single.html">text</a></h4>
-                  <i>text</i>
+            <div className="content-column col-lg-6 col-md-12 col-sm-12 order-2">
+              <div className="inner-column">
+                <div className="sec-title">
+                  <span className="title">About Robert Downey Jr.</span>
+                  <h2>A Journey of Talent, Transformation, and Triumph</h2>
+                </div>
+                <div className="text">
+                  I am Robert Downey Jr., an actor whose career spans over four
+                  decades in Hollywood. From my early days in films to becoming
+                  a global icon with roles like Iron Man, my journey has been
+                  one of incredible highs and profound growth, both on and off
+                  the screen.
+                </div>
+                <div className="text">
+                  I’m passionate about telling stories that resonate with
+                  audiences worldwide. Whether it's through the lens of a
+                  superhero, a detective, or a troubled soul, my work is
+                  dedicated to bringing characters to life in a way that
+                  connects with people deeply.
+                </div>
+                <div className="btn-box">
+                  <a href="/contact" className="theme-btn btn-style-one">
+                    Get in Touch
+                  </a>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="card hover-shadow">
-                <div className="card-body text-center position-relative zindex-1">
-                  <h4><a className="text-dark" href="team-single.html">text</a></h4>
-                  <i>text</i>
+
+            {/* Image Column */}
+            <div className="image-column col-lg-6 col-md-12 col-sm-12">
+              <div className="inner-column wow fadeInLeft">
+                <div className="author-desc">
+                  <h2>Robert Downey Jr.</h2>
+                  <span>Actor & Philanthropist</span>
                 </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="card hover-shadow">
-                <div className="card-body text-center position-relative zindex-1">
-                  <h4><a className="text-dark" href="team-single.html">text</a></h4>
-                  <i>text</i>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-3 col-sm-6">
-              <div className="card hover-shadow">
-                <div className="card-body text-center">
-                  <h4>text </h4>
-                  <i>text</i>
-                </div>
+                <figure className="image-1">
+                  <a href="/" className="lightbox-image" data-fancybox="images">
+                    <img
+                      title="Robert Downey Jr."
+                      src={ironman}
+                      alt="Robert Downey Jr."
+                    />
+                  </a>
+                </figure>
               </div>
             </div>
           </div>

@@ -20,7 +20,7 @@ const ProjectsPage = () => {
           <div className="row">
             <div className="col-12 text-center">
               <h1 className="display-1 text-white font-weight-bold font-primary">
-                Robert Downey Jr. Projects
+                My Projects
               </h1>
             </div>
           </div>

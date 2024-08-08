@@ -1,4 +1,4 @@
-// developed by Ekaterina Strelkova
+// Developed by Ekaterina Strelkova
 import React from "react";
 import "../assets/styles/footer_styles.css";
 
