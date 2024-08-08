@@ -1,4 +1,4 @@
-// developed by Ekaterina Strelkova
+// Developed by Ekaterina Strelkova
 import React, { useEffect } from "react";
 import "../assets/styles/style.css";
 import "../assets/styles/navbar_styles.css";

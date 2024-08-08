@@ -1,4 +1,4 @@
-// developed by Ekaterina Strelkova
+// Developed by Ekaterina Strelkova
 import React from "react";
 import "../assets/styles/homepage_styles.css";
 import bannerImage from "../assets/images/banner/banner2.jpg";

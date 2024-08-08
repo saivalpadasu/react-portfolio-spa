@@ -1,3 +1,4 @@
+// Developed by Sukhpreet Kaur
 import React from "react";
 import "../assets/styles/projectspage_styles.css";
 import backgroundImage from "../assets/images/backgrounds/ironman3.png";
